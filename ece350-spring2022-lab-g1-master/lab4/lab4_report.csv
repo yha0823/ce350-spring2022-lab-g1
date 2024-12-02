@@ -1,0 +1,5 @@
+Name,PlannedHours,RealHours,Contributions
+Brian Peng, 36 hours, 48 hours, Code Debugging, rt_tsk_get, rt_tsk_susp, Sorting Algorithm,rt_tsk_set ,editing previous labs' algorithms to work efficiently on current lab
+Dohyun Moon, 36 hours, 48 hours, Sorting Algorithm Code debugging,rt_tsk_get, rt_tsk_susp, rt_tsk_set, Sorting Algorithm, errors
+Young Ha Ahn, 36 hours, 48 hours, Debugging Code, Test Case, supported on building real time task functions
+William Tam, 36 hours, 48 hours, designed the timer and wall clock, debugged issues with the code, created data structures to handle information, wrote tests

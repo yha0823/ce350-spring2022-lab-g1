@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "rtx.h": "c",
+        "printf.h": "c",
+        "uart_polling.h": "c",
+        "uart_def.h": "c"
+    }
+}

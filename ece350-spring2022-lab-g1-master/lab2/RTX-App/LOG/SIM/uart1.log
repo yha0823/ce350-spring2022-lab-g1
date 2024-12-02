@@ -1,0 +1,66 @@
+G99-TS210: START
+0x10007000: 0x1000
+1 free memory block(s) found
+G99-TS210-LOG2: TID = 1, task_alloc_test1: starting test0
+G99_test: LOG - Attempt to create user task 0. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 0. 
+G99_test: LOG - Attempt to create user task 1. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 1. 
+G99_test: LOG - Attempt to create user task 2. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 2. 
+G99_test: LOG - Attempt to create user task 3. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 3. 
+G99_test: LOG - Attempt to create user task 4. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 4. 
+G99_test: LOG - Attempt to create user task 5. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 5. 
+G99_test: LOG - Attempt to create user task 6. 
+G99_test: INTERMEDIATE - PASS - Succesfully created user task 6. 
+G99_test: LOG - Attempt to create user task 7. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 7. 
+G99_test: LOG - Attempt to create user task 8. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 8. 
+G99_test: LOG - Attempt to create user task 9. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 9. 
+G99_test: LOG - Attempt to create user task 10. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 10. 
+G99_test: LOG - Attempt to create user task 11. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 11. 
+G99_test: LOG - Attempt to create user task 12. 
+G99_test: INTERMEDIATE - FAIL - Failed to create user task 12. 
+G99-TS210-LOG: Test[0]-[0]: Create enough tasks to reach MAX_TASKS.
+G99-TS210-LOG: Test[0]-[0]: result = 1.
+G99_test: PASS - Create up to MAX TASKS tasks
+G99-TS210-LOG: Test[1]-[0]: Create a MAX_TASKS + 1 task.
+G99-TS210-LOG: Test[1]-[0]: result = 1.
+G99_test: PASS - Failed to create MAX TASKS + 1 tasks
+G99-TS210-LOG2: TID = 1, priv_task1: yielding cpu
+G99_test: LOG - Check user task 0 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 0. 
+G99_test: LOG - Check user task 1 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 1. 
+G99_test: LOG - Check user task 2 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 2. 
+G99_test: LOG - Check user task 3 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 3. 
+G99_test: LOG - Check user task 4 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 4. 
+G99_test: LOG - Check user task 5 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 5. 
+G99_test: LOG - Check user task 6 is DORMANT. 
+G99_test: INTERMEDIATE - PASS - Succesfully exited user task 6. 
+G99-TS210-LOG: Test[2]-[0]: Create enough tasks to reach MAX_TASKS.
+G99-TS210-LOG: Test[2]-[0]: result = 1.
+G99_test: PASS - Successfully exited 7 user tasks
+G99-TS210-LOG: Test[3]-[0]: Attempt to create task with more mem than available.
+G99-TS210-LOG: Test[3]-[0]: result = 1.
+G99_test: PASS - Failed to create MAX TASKS + 1 tasks
+G99-TS210: FINISHED
+G99-TS210-LOG: Test 0: 1/1 PASSED. Expected = 0x1, result = 0x1
+G99-TS210-LOG: Test 1: 1/1 PASSED. Expected = 0x1, result = 0x1
+G99-TS210-LOG: Test 2: 1/1 PASSED. Expected = 0x1, result = 0x1
+G99-TS210-LOG: Test 3: 1/1 PASSED. Expected = 0x1, result = 0x1
+G99-TS210: 4/4 test function(s) COMPLETED.
+G99-TS210: 4/4 tests PASSED.
+G99-TS210: 0/4 tests FAILED.
+G99-TS210: END

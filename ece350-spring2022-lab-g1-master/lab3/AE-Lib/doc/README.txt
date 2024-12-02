@@ -1,0 +1,1 @@
+Our TS3 is a test that requires user input. When a command has been sent back using KCD_CMD to the user tasks, they will terminate.

@@ -1,0 +1,5 @@
+Name,PlannedHours,RealHours,Contributions
+William Tam, 20, 21, Helped write k_mpool_create k_mpool_alloc and k_mpool_dump. Debugged most issues and helped come up with fixes.
+Dohyun Moon, 30, 21, Helped write k_mpool_alloc k_mpool_dealloc and k_mpool_dump. Wrote tests 1, 2 and 3. Helped debugging issues that emerged while testing the code.
+Brian Peng, 20, 21, Helped write  k_mpool_create k_mpool_alloc and k_mpool_dealloc. Helped review test cases. Debugging full project using test cases.
+Jason Ahn, 20, 21, Wrote error handling in all the functions. Wrote test 3.

@@ -1,0 +1,5 @@
+Name,PlannedHours,RealHours,Contributions
+Brian Peng,25,30,send functions, receive functions, interrupt handling, kcd, message display, optimize code, debugging, helper functions, updating priority queue, new data structures
+Young Ha Ahn, 25, 35, errors, debugging
+William Tam, 20, 35, Designed algorithms, Developed data structures that was used for communication, Debugged code, Helped write tests, Designed the communicaion between the IRQ Interrupt handler, the KCD task a
+Dohyun Moon,20,25,Created test cases 1, 2, 3, and 4, Initial implementations for receive, ls, get.

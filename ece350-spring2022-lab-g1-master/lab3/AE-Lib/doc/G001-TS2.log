@@ -1,0 +1,61 @@
+G001-TS2: START
+Creating task 1
+Creating task 2
+Creating task 3
+Creating task 4
+Creating task 5
+Creating task 6
+0x10007000: 0x1000
+1 free memory block(s) found
+Creating KCD mailbox.
+Successfully created the KCD mailbox.
+Creating CDISP mailbox.
+Successfully created the CDISP mailbox.
+Set task 3 prio LOW
+Set task 4 prio LOW
+Set task 5 prio LOW
+Set task 6 prio LOW
+Create mailbox of task 1 size 0x40
+Yield from 1
+Create mailbox of task 2 size 0x40
+Set task 1 prio LOWEST
+Set task 2 prio LOWEST
+Sending message to task 1 from task 3
+Yield from 3
+Sending message to task 1 from task 4
+Yield from 4
+Sending message to task 2 from task 5
+Yield from 5
+Sending message to task 2 from task 6
+Yield from 6
+Sending message to task 1 from task 3 *NB*
+Sending message to task 1 from task 3
+Sending message to task 1 from task 4 *NB*
+Sending message to task 1 from task 4
+Sending message to task 2 from task 5 *NB*
+Sending message to task 2 from task 5
+Sending message to task 2 from task 6 *NB*
+Sending message to task 2 from task 6
+Receive message *NB*
+Exiting task 3
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 3, length: 32, data: abcdefghijklmnopqrstuvwxy3
+Receive message *NB*
+Exiting task 4
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 4, length: 32, data: abcdefghijklmnopqrstuvwxy4
+Receive message *NB*
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 3, length: 32, data: abcdefghijklmnopqrstuvwxy3
+Receive message *NB*
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 4, length: 32, data: abcdefghijklmnopqrstuvwxy4
+Exiting task 1
+Receive message *NB*
+Exiting task 5
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 5, length: 32, data: abcdefghijklmnopqrstuvwxy5
+Receive message *NB*
+Exiting task 6
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 6, length: 32, data: abcdefghijklmnopqrstuvwxy6
+Receive message *NB*
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 5, length: 32, data: abcdefghijklmnopqrstuvwxy5
+Receive message *NB*
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 6, length: 32, data: abcdefghijklmnopqrstuvwxy6
+Exiting task 2
+

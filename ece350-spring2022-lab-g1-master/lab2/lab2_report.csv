@@ -1,0 +1,5 @@
+Name,PlannedHours,RealHours,Contributions
+William Tam, 30, 15, Worked on the priority queue, diagnosed and fixed bugs, helped with testing, worked on algorithms that implemented the priority queue, worked on k_tsk_create_new, k_tsk_init, k_tsk_create, k_tsk_run_new
+Dohyun Moon, 30, 15, Helped debug issues, developed test suite 1 and 2, worked on k_tsk_set_prio, k_tsk_get, k_tsk_ls, tcb data structure
+Brian Peng, 20, 14, worked on k_tsk_yield, k_tsk_set_prio, k_tsk_get, k_tsk_ls, debugging and analyzing output, stack pointers and registers, dynamic allocation, tcb data structure, exception handling
+Young Ha Ahn, 30, 15, Worked on Errors

@@ -1,0 +1,24 @@
+G001-TS1: START
+Creating task 1
+Creating task 2
+Creating task 3
+0x10007000: 0x1000
+1 free memory block(s) found
+Creating KCD mailbox.
+Successfully created the KCD mailbox.
+Creating CDISP mailbox.
+Successfully created the CDISP mailbox.
+Creating mailbox for task 1 with size 0x20
+Receive mailbox 1
+Sending message to task 1 from task 2
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 2, length: 32, data: abcdefghijklmnopqrstuvwxy2 
+Receive mailbox 1
+Sending message to task 1 from task 2
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 2, length: 32, data: abcdefghijklmnopqrstuvwxy2 
+Receive mailbox 1
+Exiting task 2
+Sending message to task 1 from task 3
+Received message -> RTX_MSG_HDR: type: 0, sender_tid: 3, length: 32, data: abcdefghijklmnopqrstuvwxy3 
+Exiting task 1
+Exiting task 3
+
